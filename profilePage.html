@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Profile Page</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap"
+            rel="stylesheet"
+        />
+
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+
+        <main class="row">
+            <section class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-4 section-1 card p-2">
+                <img
+                    src="/assets/pic.jpg"
+                    class="profpic card-img-top rounded-circle align-self-center w-75"
+                    alt="..."
+                />
+                <div
+                    class="card-body d-flex flex-column align-items-center p-2"
+                >
+                    <p class="card-text mt-3 fs-3">ADVAIT SURESH</p>
+                    <p class="card-text fs-5">FRONT-END DEVELOPER</p>
+                    <p class="card-text text-center mt-2">
+                        A Front-end developer with knowledge and experience with
+                        core and new front end technologies. Passionate about
+                        designing user-friendly interfaces and enhancing user
+                        experience through creative problem-solving. Skilled in
+                        turning design concepts into reality. Continuously
+                        expanding knowledge with the latest web development
+                        technologies.
+                    </p>
+                </div>
+            </section>
+            <section class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-8 section-2 card">
+                <div
+                    id="carouselExampleIndicators"
+                    class="carousel carousel-dark slide slide w-100 h-100"
+                >
+                    <div class="carousel-indicators">
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="0"
+                            class="active"
+                            aria-current="true"
+                            aria-label="Slide 1"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="1"
+                            aria-label="Slide 2"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="2"
+                            aria-label="Slide 3"
+                        ></button>
+                        <button
+                            type="button"
+                            data-bs-target="#carouselExampleIndicators"
+                            data-bs-slide-to="3"
+                            aria-label="Slide 4"
+                        ></button>
+                    </div>
+                    <div class="carousel-inner w-100 h-100">
+                        <div class="carousel-item active w-100 h-100">
+                            <!-- <img src="..." class="d-block w-100" alt="..." /> -->
+                            <div class="card w-100 h-100 sld" id="education">
+                                <div class="card-body sld-body">
+                                    <h1 class="sld-title">Education</h1>
+                                    <div
+                                        class="accordion accordion-flush"
+                                        id="accordionFlushExample"
+                                    >
+                                        <div class="accordion-item">
+                                            <h2
+                                                class="accordion-header"
+                                                id="flush-headingOne"
+                                            >
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseOne"
+                                                >
+                                                    Degree
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseOne"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <div class="d-flex">
+                                                        <p class="me-5">
+                                                            <strong
+                                                                >2020 -
+                                                                present</strong
+                                                            >
+                                                        </p>
+                                                        <p>
+                                                            <strong>
+                                                                Bachelors of
+                                                                Technology in
+                                                                Artificial
+                                                                Intelligence </strong
+                                                            >,
+                                                            <br />
+                                                            Amrita Vishwa
+                                                            Vidyapeetham,<br />
+                                                            Amritapuri <br />
+                                                            <strong
+                                                                >CGPA -
+                                                                8.86</strong
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2
+                                                class="accordion-header"
+                                                id="flush-headingTwo"
+                                            >
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseTwo"
+                                                >
+                                                    Higher Secondary Education
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseTwo"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <div class="d-flex">
+                                                        <p class="me-5">
+                                                            <strong
+                                                                >2019 -
+                                                                2020</strong
+                                                            >
+                                                        </p>
+                                                        <p>
+                                                            <strong>
+                                                                Class 12th,
+                                                                <br />
+                                                                CBSE, <br />
+                                                            </strong>
+                                                            Amrita Vidyalayam,
+                                                            <br />
+                                                            Kozhikode <br />
+                                                            <strong
+                                                                >Score -
+                                                                91.8%</strong
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2
+                                                class="accordion-header"
+                                                id="flush-headingThree"
+                                            >
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseThree"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseThree"
+                                                >
+                                                    Highschool Education
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseThree"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <div class="d-flex">
+                                                        <p class="me-5">
+                                                            <strong
+                                                                >2017 -
+                                                                2018</strong
+                                                            >
+                                                        </p>
+                                                        <p>
+                                                            <strong>
+                                                                Class 10th,
+                                                                <br />
+                                                                CBSE, <br />
+                                                            </strong>
+                                                            Amrita Vidyalayam,
+                                                            <br />
+                                                            Koyilandy <br />
+                                                            <strong
+                                                                >Score -
+                                                                92.6%</strong
+                                                            >
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item w-100 h-100">
+                            <div class="card w-100 h-100 sld overflow-auto" id="skills">
+                                <div class="card-body sld-body">
+                                    <h1 class="sld-title">Skills</h1>
+                                    <div
+                                        class="w-100 row p-2"
+                                    >
+                                        <div
+                                            class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 justify-content-center mt-3 me-lg-2 me-xl-0"
+                                        >
+                                            <div
+                                                class="card sk-card"
+
+                                            >
+                                                <div
+                                                    class="d-flex justify-content-center g-1 w-100 mt-3 align-items-center"
+                                                >
+                                                    <img
+                                                        src="/assets/html-icon.png"
+                                                        alt="icon"
+                                                        width="30%"
+                                                    />
+                                                    <img
+                                                        src="/assets/css-icon.png"
+                                                        alt="icon"
+                                                        width="30%"
+                                                    />
+                                                    <img
+                                                        src="/assets/js-icon.png"
+                                                        alt="icon"
+                                                        width="30%"
+                                                    />
+                                                </div>
+                                                <div class="card-body">
+                                                    <h3 class="mt-3">Basics</h3>
+                                                    <h6 class="mt-2">HTML</h6>
+                                                    <h6 class="mt-2">CSS</h6>
+                                                    <h6 class="mt-2 mb-3">
+                                                        JavaScript
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 justify-content-center mt-3 "
+                                        >
+                                            <div
+                                                class="card sk-card"
+                                            >
+                                            <!-- style="width: 17rem" -->
+                                                <div
+                                                    class="d-flex justify-content-center w-100 mt-3 align-items-center"
+                                                >
+                                                    <img
+                                                        src="/assets/bootstrap-icon.png"
+                                                        alt="icon"
+                                                        width="30%"
+                                                        class="me-2"
+                                                    />
+                                                    <img
+                                                        src="/assets/tailwindcss-icon.png"
+                                                        alt="icon"
+                                                        width="30%"
+                                                    />
+                                                </div>
+                                                <div class="card-body">
+                                                    <h3 class="mt-3">
+                                                        CSS Frameworks
+                                                    </h3>
+                                                    <h6 class="mt-2">
+                                                        Bootstrap
+                                                    </h6>
+                                                    <h6 class="mt-2 mb-3">
+                                                        Tailwind
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 justify-content-center mt-3"
+                                        >
+                                            <div
+                                                class="card sk-card"
+                                            >
+                                                <div
+                                                    class="d-flex justify-content-center g-1 w-100 mt-3 align-items-center"
+                                                >
+                                                    <img
+                                                        src="/assets/react-icon.png"
+                                                        alt="icon"
+                                                        width="30%"
+                                                    />
+                                                </div>
+                                                <div class="card-body   ">
+                                                    <h3 class="mt-3">
+                                                        JS Frameworks
+                                                    </h3>
+                                                    <h6 class="mt-2 mb-3">React JS</h6>
+                                                    </h6>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Projects Page -->
+                        <div class="carousel-item w-100 h-100">
+                            <!-- <img src="..." class="d-block w-100" alt="..." /> -->
+                            <div class="card w-100 h-100 sld overflow-auto" id="projects">
+                                <div class="card-body sld-body">
+                                    <h1 class="sld-title">Projects</h1>
+                                    <div class="mt-3 w-100">
+                                        <div class="row">
+                                            <div class="col-12 col-xl-6">
+                                                <a href="https://advait-04.github.io/my-anime-taste/">
+                                                    <img src="/assets/wp1.png" class="g-img object-fit-cover"/>
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-xl-6 mt-2 mt-xl-0">
+                                                <a href="https://advait-04.github.io/notes-app/">
+                                                    <img src="/assets/wp2.png" class="g-img object-fit-cover"/>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>
+                                        <div class="row mt-xl-2">
+                                            <div class="col-12 col-xl-6 mt-2 mt-xl-0">
+                                                <a href="https://advait-04.github.io/tenzies-game/">
+                                                    <img src="/assets/wp3.png" class="g-img object-fit-cover"/>
+                                                </a>
+                                            </div>
+                                            <div class="col-12 col-xl-6 mt-2 mt-xl-0">
+                                                <a href="https://advait-04.github.io/meme-generator/">
+                                                    <img src="/assets/wp4.png" class="g-img object-fit-cover"/>
+                                                </a>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Socials -->
+                        <div class="carousel-item w-100 h-100">
+                            <!-- <img src="..." class="d-block w-100" alt="..." /> -->
+                            <div class="card w-100 h-100 sld" id="socials">
+                                <div class="card-body sld-body">
+                                    <h1>Socials</h1>
+                                    <div class="social-div mt-2">
+                                        <a href="https://www.instagram.com/____advait__/"><img src="/assets/instagram-icon.png" alt="insta-icon" class="s-img" /></a>
+                                        <a href="https://www.linkedin.com/in/advait-suresh-5108a1237/"><img src="/assets/linkedin-icon.png" class="s-img" alt="linkedin-icon" /></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    <button
+                        class="carousel-control-prev"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="prev"
+                    >
+                        <span
+                            class="carousel-control-prev-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button
+                        class="carousel-control-next"
+                        type="button"
+                        data-bs-target="#carouselExampleIndicators"
+                        data-bs-slide="next"
+                    >
+                        <span
+                            class="carousel-control-next-icon"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
+        </main>
+        
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>

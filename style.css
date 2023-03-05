@@ -1,0 +1,86 @@
+* {
+    margin: 0px !important;
+    padding: 0px !important;
+    box-sizing: border-box !important;
+    font-family: "IBM PLEX MONO";
+    padding: 1px;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+nav {
+    width: 80%;
+}
+
+.dropdown {
+    float: right;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 80%;
+    height: 70%;
+}
+
+.section-1 {
+    /* width: 30%; */
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.section-2 {
+    /* width: 70%; */
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.sld-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px !important;
+    text-align: center;
+
+    gap: 10px;
+}
+
+.g-img {
+    width: 95%;
+    border: 1px black solid;
+    border-radius: 3px;
+}
+
+.profpic {
+    max-width: 80%;
+}
+
+.sk-card {
+    min-height: 14.75rem;
+}
+
+.social-div {
+    width: 15rem;
+}
+
+.s-img {
+    width: 40%;
+}
+
+@media screen and (min-width: 1400px) {
+    .sk-card {
+        height: 16rem;
+    }
+}
