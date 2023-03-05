@@ -79,6 +79,10 @@ main {
     width: 40%;
 }
 
+.pro-card {
+    height: 15rem;
+}
+
 @media screen and (min-width: 1400px) {
     .sk-card {
         height: 16rem;
