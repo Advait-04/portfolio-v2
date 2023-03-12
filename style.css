@@ -79,12 +79,19 @@ main {
     width: 40%;
 }
 
+.pro-img-div {
+    height: 70%;
+}
+
 .pro-card {
-    height: 15rem;
+    height: 100%;
 }
 
 @media screen and (min-width: 1400px) {
     .sk-card {
         height: 16rem;
     }
+}
+
+@media screen and (min-width: 1200px) {
 }

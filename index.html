@@ -26,9 +26,10 @@
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-
         <main class="row">
-            <section class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-4 section-1 card p-2">
+            <section
+                class="col-12 col-sm-12 col-md-6 col-lg-5 col-xl-4 section-1 card p-2"
+            >
                 <img
                     src="assets/pic.jpg"
                     class="profpic card-img-top rounded-circle align-self-center w-75"
@@ -50,7 +51,9 @@
                     </p>
                 </div>
             </section>
-            <section class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-8 section-2 card">
+            <section
+                class="col-12 col-sm-12 col-md-6 col-lg-7 col-xl-8 section-2 card"
+            >
                 <div
                     id="carouselExampleIndicators"
                     class="carousel carousel-dark slide slide w-100 h-100"
@@ -244,19 +247,17 @@
                             </div>
                         </div>
                         <div class="carousel-item w-100 h-100">
-                            <div class="card w-100 h-100 sld overflow-auto" id="skills">
+                            <div
+                                class="card w-100 h-100 sld overflow-auto"
+                                id="skills"
+                            >
                                 <div class="card-body sld-body">
                                     <h1 class="sld-title">Skills</h1>
-                                    <div
-                                        class="w-100 row p-2"
-                                    >
+                                    <div class="w-100 row p-2">
                                         <div
                                             class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 justify-content-center mt-3 me-lg-2 me-xl-0"
                                         >
-                                            <div
-                                                class="card sk-card"
-
-                                            >
+                                            <div class="card sk-card">
                                                 <div
                                                     class="d-flex justify-content-center g-1 w-100 mt-3 align-items-center"
                                                 >
@@ -288,12 +289,10 @@
                                         </div>
 
                                         <div
-                                            class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 justify-content-center mt-3 "
+                                            class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 justify-content-center mt-3"
                                         >
-                                            <div
-                                                class="card sk-card"
-                                            >
-                                            <!-- style="width: 17rem" -->
+                                            <div class="card sk-card">
+                                                <!-- style="width: 17rem" -->
                                                 <div
                                                     class="d-flex justify-content-center w-100 mt-3 align-items-center"
                                                 >
@@ -326,9 +325,7 @@
                                         <div
                                             class="col-12 col-sm-12 col-md-12 col-lg-5 col-xl-4 justify-content-center mt-3"
                                         >
-                                            <div
-                                                class="card sk-card"
-                                            >
+                                            <div class="card sk-card">
                                                 <div
                                                     class="d-flex justify-content-center g-1 w-100 mt-3 align-items-center"
                                                 >
@@ -338,11 +335,12 @@
                                                         width="30%"
                                                     />
                                                 </div>
-                                                <div class="card-body   ">
+                                                <div class="card-body">
                                                     <h3 class="mt-3">
                                                         JS Frameworks
                                                     </h3>
-                                                    <h6 class="mt-2 mb-3">React JS</h6>
+                                                    <h6 class="mt-2 mb-3">
+                                                        React JS
                                                     </h6>
                                                 </div>
                                             </div>
@@ -355,33 +353,163 @@
                         <!-- Projects Page -->
                         <div class="carousel-item w-100 h-100">
                             <!-- <img src="..." class="d-block w-100" alt="..." /> -->
-                            <div class="card w-100 h-100 sld overflow-auto" id="projects">
+                            <div
+                                class="card w-100 h-100 sld overflow-auto"
+                                id="projects"
+                            >
                                 <div class="card-body sld-body">
                                     <h1 class="sld-title">Projects</h1>
-                                    <div class="mt-3 w-100 row d-flex justify-content-center gap-3 flex-wra">
-                                        <div class="card col-3 pro-card" >
-                                            <a href="https://advait-04.github.io/wordle-clone/">
-                                                <img src="assets/wordle-img.png" class="card-img-top h-75" alt="...">
-                                                <div class="card-body mt-2">
-                                                <p class="card-text fs-4">Wordle</p>
+                                    <div
+                                        class="accordion accordion-flush w-75"
+                                        id="accordionFlushExample"
+                                    >
+                                        <div class="accordion-item">
+                                            <h2
+                                                class="accordion-header"
+                                                id="flush-headingOne"
+                                            >
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseOne"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseOne"
+                                                >
+                                                    #1 Wordle
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseOne"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <p class="mb-2">
+                                                        Wordle is a popular
+                                                        online guessing game
+                                                        that challenges players
+                                                        to guess a five-letter
+                                                        word selected by the
+                                                        computer. The player has
+                                                        six chances to guess the
+                                                        word, and after each
+                                                        guess, the computer
+                                                        provides feedback on
+                                                        which letters are in the
+                                                        correct position and
+                                                        which letters are part
+                                                        of the word but in the
+                                                        wrong position.
+                                                    </p>
+                                                    <a
+                                                        href="https://advait-04.github.io/wordle-clone/"
+                                                    >
+                                                        <button
+                                                            class="btn btn-outline-primary p-2 mb-2 rounded-0"
+                                                        >
+                                                            Play
+                                                        </button>
+                                                    </a>
                                                 </div>
-                                            </a>
-                                        </div>
-                                        <div class="card col-3 pro-card" >
-                                            <a href="https://advait-04.github.io/tic-tac-toe/">
-                                                <img src="assets/ttt-img.jpg" class="card-img-top h-75" alt="...">
-                                                <div class="card-body mt-2">
-                                                  <p class="card-text fs-4">Tic Tac Toe</p>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card col-3 pro-card" >
-                                            <a href="https://advait-04.github.io/photo-album/">
-                                                <img src="assets/album-img.png" class="card-img-top h-75" alt="...">
-                                            <div class="card-body mt-4">
-                                              <p class="card-text fs-4">Photo Album</p>
                                             </div>
-                                            </a>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2
+                                                class="accordion-header"
+                                                id="flush-headingTwo"
+                                            >
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseTwo"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseTwo"
+                                                >
+                                                    #2 Tic-Tac-Toe
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseTwo"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <p class="mb-2">
+                                                        Tic Tac Toe, also known
+                                                        as Noughts and Crosses,
+                                                        is a simple two-player
+                                                        game played on a 3x3
+                                                        grid. Players take turns
+                                                        placing either an "X" or
+                                                        an "O" in an empty cell
+                                                        of the grid until one
+                                                        player successfully
+                                                        places three of their
+                                                        marks in a horizontal,
+                                                        vertical, or diagonal
+                                                        row. Here both Single
+                                                        player and Two player
+                                                        mode is available.
+                                                    </p>
+                                                    <a
+                                                        href="https://advait-04.github.io/tic-tac-toe/"
+                                                    >
+                                                        <button
+                                                            class="btn btn-outline-primary p-2 mb-2 rounded-0"
+                                                        >
+                                                            Play
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="accordion-item">
+                                            <h2
+                                                class="accordion-header"
+                                                id="flush-headingThree"
+                                            >
+                                                <button
+                                                    class="accordion-button collapsed"
+                                                    type="button"
+                                                    data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseThree"
+                                                    aria-expanded="false"
+                                                    aria-controls="flush-collapseThree"
+                                                >
+                                                    #3 Photo Album
+                                                </button>
+                                            </h2>
+                                            <div
+                                                id="flush-collapseThree"
+                                                class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample"
+                                            >
+                                                <div class="accordion-body">
+                                                    <p class="mb-2">
+                                                        A digital photo album is
+                                                        a collection of digital
+                                                        images that are stored
+                                                        and displayed on an
+                                                        electronic device such
+                                                        as a computer, tablet,
+                                                        or smartphone.
+                                                    </p>
+                                                    <a
+                                                        href="https://advait-04.github.io/photo-album/"
+                                                    >
+                                                        <button
+                                                            class="btn btn-outline-primary p-2 mb-2 rounded-0"
+                                                        >
+                                                            Goto Album
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -395,14 +523,24 @@
                                 <div class="card-body sld-body">
                                     <h1>Socials</h1>
                                     <div class="social-div mt-2">
-                                        <a href="https://www.instagram.com/____advait__/"><img src="assets/instagram-icon.png" alt="insta-icon" class="s-img" /></a>
-                                        <a href="https://www.linkedin.com/in/advait-suresh-5108a1237/"><img src="assets/linkedin-icon.png" class="s-img" alt="linkedin-icon" /></a>
+                                        <a
+                                            href="https://www.instagram.com/____advait__/"
+                                            ><img
+                                                src="assets/instagram-icon.png"
+                                                alt="insta-icon"
+                                                class="s-img"
+                                        /></a>
+                                        <a
+                                            href="https://www.linkedin.com/in/advait-suresh-5108a1237/"
+                                            ><img
+                                                src="assets/linkedin-icon.png"
+                                                class="s-img"
+                                                alt="linkedin-icon"
+                                        /></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                     <button
                         class="carousel-control-prev"
@@ -431,7 +569,7 @@
                 </div>
             </section>
         </main>
-        
+
         <script
             src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
